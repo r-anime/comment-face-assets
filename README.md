@@ -4,18 +4,24 @@ The repository of media and data of [/r/anime](https://www.reddit.com/r/anime) C
 
 ## Directory Structure
 * `preview`
-  Preview of Comment Faces in the dimension used by the [/r/anime](https://www.reddit.com/r/anime) stylesheet.
+  Comment Faces in the dimensions used by the [/r/anime](https://www.reddit.com/r/anime) stylesheet. They're previews for how the Comment Faces will look on the subreddit after being manually processed and embedded into the set of pre-stitched spritesheets found [here](https://github.com/r-anime/stylesheet/tree/main/images).
   * `active`
-    Currently active Comment Faces.
+    The set of currently active Comment Faces.
   * `discontinued`
-    Discontinued Comment Faces.
+    The set of discontinued Comment Faces.
 * `source`
   * `animated`
-    Source frames of animated Comment Faces. Each directory represents a Comment Face. The frames are stored as PNG images named as 4-digit numbers starting from 0.
-    The directories can contain also `original` subdirectory with the original file the source is created from and `edited` subdirectory with the edited version of the original file.
+    The source frames for the animated Comment Faces. Each directory represents a Comment Face. The frames are stored as PNG images named as 4-digit numbers starting from 0.
+    * `original`
+    Each directory may contain a subdirectory containing the original file that the source is created from.
+    * `edited`
+    Each directory may contain a subdirectory containing an edited version of the original file that the source is created from.
   * `static`
-    Source images of static Comment Faces. Each directory represents a Comment Face. The images are stored as PNG files using the name of the Comment Face.
-    The directories can contain also `original` subdirectory with the original file the source is created from and `edited` subdirectory with the edited version of the original file.
+    The source images of the static Comment Faces. Each directory represents a Comment Face. The images are stored as PNG files named after the Comment Face.
+    * `original`
+    Each directory may contain a subdirectory containing the original file that the source is created from.
+    * `edited`
+    Each directory may contain a subdirectory containing an edited version of the original file that the source is created from.
 
 ## List of Comment Faces
 
